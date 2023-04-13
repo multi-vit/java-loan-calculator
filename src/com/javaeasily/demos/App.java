@@ -1,5 +1,8 @@
 package com.javaeasily.demos;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class App {
     public static void main(String[] args) {
         System.out.println("Loan Calculator".toUpperCase());
@@ -27,5 +30,13 @@ public class App {
             System.out.println("Invalid values - cannot calculate repayment amount.");
         }
 
+        List<String> foods = new LinkedList<>();
+        foods.add("Cheese");
+        foods.add("Chocolate");
+        foods.add("Pizza");
+
+        for (String food: foods) {
+            System.out.println("food = " + food);
+        }
     }
 }
